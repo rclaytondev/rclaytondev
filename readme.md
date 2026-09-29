@@ -8,7 +8,7 @@ I contributed to the development of Solofolio, a web app built using Ruby on Rai
 - I made the project follow software engineering best practices by setting up a CI pipeline for automated testing and linting via [GitHub Actions](https://github.com/features/actions).
 
 ## [Arachnomechanica](https://github.com/rclaytondev/arachnomechanica) (2025-present)
-*Arachnomechanica* ([play it online!](https://rclaytondev.github.io/stick-dungeon/)) is a procedurally-generated platformer game about creatures with complex emergent behavior, designed with a focus on allowing a large degree of player skill. The following are some of the core technical challenges I solved in the project:
+*Arachnomechanica* ([play it online!](https://rclaytondev.github.io/arachnomechanica/)) is a procedurally-generated platformer game about creatures with complex emergent behavior, designed with a focus on allowing a large degree of player skill. The following are some of the core technical challenges I solved in the project:
 
 **Always-solvable level generation**: A central feature of the game is gates that all toggle every time the player goes through one. It would be easy to accidentally create an impossible or trivial level with these, so I created a sophisticated algorithm that intelligently places rooms to avoid these issues. To create the general shape of the level, the algorithm first creates a "main path" through the level, then randomly adds branches off the path (based off the technique used in one of my favorite games, *Spelunky*). To fill in this shape with actual rooms, the algorithm initially makes each room maximally connected, then replaces each room with a less-connected version, reverting to the previous state if doing so makes the level impossible to traverse.
 
