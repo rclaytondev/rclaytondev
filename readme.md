@@ -1,7 +1,7 @@
 # My Projects
 With the exception of Solofolio, all projects listed here were developed entirely by me.
 
-## [Solofolio](http://solofolio.net/) - Internship (2026)
+## [Solofolio](http://solofolio.net/) - Freelance Full-Stack Web Development (2026-present)
 I contributed to the development of Solofolio, a web app built using Ruby on Rails that allows users to upload images to create portfolio websites. During my time at Solofolio, I did the following:
 - I improved the image management UI, allowing users to more easily delete many images at once. I implemented this feature across the stack, from the frontend JavaScript to the backend Rails endpoints.
 - I helped optimize page load times by configuring the server to use [Cloudfront](https://aws.amazon.com/cloudfront/), a content delivery network. I implemented this safely using feature flagging to ensure no users were adversely affected.
