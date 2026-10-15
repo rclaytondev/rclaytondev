@@ -4,6 +4,7 @@ With the exception of Solofolio, all projects listed here were developed entirel
 ## [Solofolio](http://solofolio.net/) - Internship (2026-present)
 I contributed to the development of Solofolio, a web app built using Ruby on Rails that allows users to upload images to create portfolio websites. During my time at Solofolio, I did the following:
 - I improved the image management UI, allowing users to more easily delete many images at once. I implemented this feature across the stack, from the frontend JavaScript to the backend Rails endpoints.
+- I made it so users have to confirm their emails before they can create or edit a site. I realized that the previous partially-implemented approach would break for legacy users, so I created a custom implementation using [Devise](https://rubygems.org/gems/devise/versions/4.9.3).
 - I helped optimize page load times by configuring the server to use [Cloudfront](https://aws.amazon.com/cloudfront/), a content delivery network. I implemented this safely using feature flagging to ensure no users were adversely affected.
 - I made the project follow software engineering best practices by setting up a CI pipeline for automated testing and linting via [GitHub Actions](https://github.com/features/actions).
 
